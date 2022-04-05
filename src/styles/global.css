@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Starborn";
+  src: url(../assets/fonts/Starborn.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "RockoUltraFLF";
+  src: url(../assets/fonts/RockoUltraFLF.woff2) format("woff2");
+}
+
+body {
+  font-family: "RockoUltraFLF";
+}
+
+#home {
+  background-color: #171c30;
+  background-image: url(../assets/images/stars.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 1500px;
+}
+
+.web3modal-modal-lightbox { z-index: 300 !important; }
